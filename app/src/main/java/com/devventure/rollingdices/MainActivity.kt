@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
             Log.i("CICLO DE VIDA", "ON CREATE")
         }
     }
+
     // Métodos para monitorar ciclo de vida
     /*
     override fun onStart() {
