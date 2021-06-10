@@ -10,13 +10,15 @@
         android:id="@+id/button"
         android:layout_width="348dp"
         android:layout_height="43dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="504dp"
         android:backgroundTint="@color/green_red_color_state"
         android:text="Jogar"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826" />
 
     <ImageView
         android:id="@+id/dice01"
